@@ -55,13 +55,15 @@
     margin-bottom: 20px;
 }
     
-/*        Max width if screen is smaller than max width do this____*/
-/*        Min width if screen is bigger than min width do this____*/    
+/*        Max width if screen is smaller than max width value do this____*/
+/*        Min width if screen is bigger than min width value do this____*/    
     
 @media all and (min-width:800px){
 .heading{
     text-align: left;
-    font-size: 
+    float: left;
+    display: inline-block;
+    width: 20%;
         }
 input{
     padding: 8px 6px 0 6px;
@@ -71,14 +73,19 @@ input{
     background: none;
 }
 .after{
-    width:500px;
-    height: 800px;
+    display: inline;
     font-size: 30px;
     margin: none;
     float: left;
+    width: 80%;
+    background: none;
+    border: none;
 }
     .box{
         float: left;
-        width: 500px;
+        width: 80%;
+        display: inline-block;
+        background: none;
+        border: none;
     }
     }
