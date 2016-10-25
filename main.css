@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box{
+    background: #94C947;
+    color: #00673E;
+    border: 2px solid #00673E;
+    width:200px;
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 10px;
+    margin: auto;
+}
+.after{
+    background: #94C947;
+    color: #00673E;
+    border: 2px solid #00673E;
+    width:200px;
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 10px;
+    margin: auto;
+}
+.page {
+    display:none;
+}
+.active {
+    display: block;
+}
+@media all and (min-width: 500px){
+.box{
+    width:400px;
+    height: 400px;
+    font-size: 40px;
+}
+    .after{
+        width: 400px;
+        height: 400px;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+.heading{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+    
+/*        Max width if screen is smaller than max width do this____*/
+/*        Min width if screen is bigger than min width do this____*/    
+    
+@media all and (min-width:800px){
+.heading{
+    text-align: left;
+    font-size: 
+        }
+input{
+    padding: 8px 6px 0 6px;
+}
+#num_list{
+    margin-left: 20px;
+    background: none;
+}
+.after{
+    width:500px;
+    height: 800px;
+    font-size: 30px;
+    margin: none;
+    float: left;
+}
+    .box{
+        float: left;
+        width: 500px;
+    }
+    }
