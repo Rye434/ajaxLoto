@@ -37,7 +37,7 @@
 .active {
     display: block;
 }
-@media all and (min-width: 500px){
+@media screen and (min-width: 600px){
 .box{
     width:400px;
     height: 400px;
@@ -58,12 +58,14 @@
 /*        Max width if screen is smaller than max width value do this____*/
 /*        Min width if screen is bigger than min width value do this____*/    
     
-@media all and (min-width:800px){
+@media screen and (min-width:800px){
 .heading{
     text-align: left;
     float: left;
     display: inline-block;
-    width: 20%;
+    width: 25%;
+    height: 500px;
+    background: #94C947;
         }
 input{
     padding: 8px 6px 0 6px;
@@ -71,21 +73,29 @@ input{
 #num_list{
     margin-left: 20px;
     background: none;
+    height: 250px;
 }
 .after{
     display: inline;
     font-size: 30px;
     margin: none;
     float: left;
-    width: 80%;
-    background: none;
+    width: 74%;
+    background: #00673E;
     border: none;
+    height: 500px;
+    color: beige;
 }
     .box{
         float: left;
-        width: 80%;
+        width: 75%;
         display: inline-block;
-        background: none;
+        background: #00673E;
         border: none;
+        color: beige;
+        height: 500px;
+    }
+    p{
+        margin-left: 80px;
     }
     }
