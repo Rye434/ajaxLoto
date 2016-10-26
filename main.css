@@ -39,20 +39,20 @@
 }
 @media screen and (min-width: 600px){
 .box{
-    width:400px;
-    height: 400px;
-    font-size: 40px;
+    width:600px;
+    height: 600px;
+    font-size: 50px;
 }
     .after{
-        width: 400px;
-        height: 400px;
-        font-size: 20px;
+        width: 600px;
+        height: 600px;
+        font-size: 60px;
         padding-left: 30px;
     }
 .heading{
     font-size: 40px;
     font-family: sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
     
 /*        Max width if screen is smaller than max width value do this____*/
